@@ -1,10 +1,15 @@
 const AWS = require("aws-sdk");
 const fs = require("fs");
 
-if (process.env.NODE_ENV !== "production") {
-  AWS.config.loadFromPath("./credentials.json");
-}
-const s3 = new AWS.S3({ apiVersion: "2006-03-01" });
+// if (process.env.NODE_ENV !== "production") {
+// AWS.config.loadFromPath("./credentials.json"); 
+
+  const s3 = new AWS.S3({
+    accessKeyId: process.env.AWS_ACCESS_KEY,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
+  });
+// }
+// const s3 = new AWS.S3({ apiVersion: "2006-03-01" });
 
 //The uploadFile function
 function singleFileUpload(source, targetName, res) {

@@ -7,8 +7,8 @@ services:
     image: store
     environment:
       NODE_ENV: production
-      MONGO_URI: "mongodb+srv://poojan4ps:Poojan@123@cloudproject1.h5ru20b.mongodb.net/?retryWrites=true&w=majority"
-      secretOrKey: "36a14fe2-c485-45b0-b1b5-e28907fe389a"
+      MONGO_URI: "mongodb+srv://poojan4ps:Poojan@123@cloudproject1.h5ru20b.mongodb.net/test"
+      secretOrKey: "8deecb7b-1fa1-400a-b03b-d9d27addf240"
     ports:
       - "5000:5000"
 

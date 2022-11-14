@@ -19,6 +19,8 @@ const { singleFileUpload } = require("./services/s3")
 
 
 if (!db) {
+console.log('Mongo_URL : '+process.env.MONGO_URI);
+
   throw new Error("You must provide a string to connect to MongoDB Atlas");
 }
 
