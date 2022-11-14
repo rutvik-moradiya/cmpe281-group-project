@@ -12,7 +12,7 @@ To see the most up to date version, please visit [the homepage](https://dootify.
 * Database – MongoDB, GraphQL
 * Libraries – Mongoose, React
 * Server Environment – NodeJS
-* Storage- AWS S
+* Storage- AWS S3
 
 ## Feature Spotlight
 * Users can create Playlist
