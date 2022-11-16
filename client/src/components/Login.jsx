@@ -53,7 +53,7 @@ class Login extends Component {
               <Link to="/splash">
                 <div className="logo-container">
                   <i className="fab fa-spotify"></i>
-                  <h1>Dotify</h1>
+                  <h1>Rock-N-Roll</h1>
                 </div>
               </Link>
             </header>
@@ -86,7 +86,7 @@ class Login extends Component {
                   <h3>Don't have an account ?</h3>
                   <button className="signup-redirect">
                   <Link to="signup"> 
-                    Sign Up for Dotify
+                    Sign Up for Rock-N-Roll
                   </Link>
                   </button>
                   <button className="demo-login" onClick={(e) => {
