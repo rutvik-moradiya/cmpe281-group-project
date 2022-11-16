@@ -1,13 +1,9 @@
 University Name: http://www.sjsu.edu/Links to an external site.
 Course: Cloud Technologies.
-Professor Sanjay Garje Links to an external site.(This is link to LinkedIn Profile)
-Student: 
+Professor: Sanjay Garje
+Group: 
     Rutvik Moradiya
-        https://www.linkedin.com/in/rutvik-moradiya-a6989312a/
 
-    Poojan Patel
-    Jack Kalavadiya
-    Rishabh Gupta
 
 # Project Introduction (What the application does, feature list)
 
