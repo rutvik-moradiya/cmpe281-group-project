@@ -43,7 +43,7 @@ const signup = async data => {
 
     user.save();
     // we'll create a token for the user
-    const token = jwt.sign({ id: user._id }, keys.secretOrKey);
+    const token = jwt.sign({ id: user._id }, "9aa948f5-b6b0-44ab-b0bc-27fad9ebd7e8");
 
     // then return our created token, set loggedIn to be true, null their password, and send the rest of the user
     return { token, loggedIn: true, ...user._doc, password: null };
@@ -67,7 +67,7 @@ const login = async data => {
     const isValidPassword = await bcrypt.compareSync(password, user.password);
     if (!isValidPassword) throw new Error("Invalid Password");
 
-    const token = jwt.sign({ id: user.id }, keys.secretOrKey);
+    const token = jwt.sign({ id: user.id }, "9aa948f5-b6b0-44ab-b0bc-27fad9ebd7e8");
     return { token, loggedIn: true, ...user._doc, password: null };
 
   } catch (err) {
@@ -92,9 +92,8 @@ const verifyUser = async data => {
     const { token } = data;
     // we decode the token using our secret password to get the
     // user's id
-    const decoded = jwt.verify(token, keys.secretOrKey);
+    const decoded = jwt.verify(token, "9aa948f5-b6b0-44ab-b0bc-27fad9ebd7e8");
     const { id } = decoded;
-
     // then we try to use the User with the id we just decoded
     // making sure we await the response
     const loggedIn = await User.findById(id).then(user => {

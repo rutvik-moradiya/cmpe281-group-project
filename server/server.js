@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 // const keys = require("../config2/keys");
 // const keys = require("../config2/keys");
 const keys = require("../config3/keys");
-const db = keys.MONGO_URI;
+const db = "mongodb+srv://rutvikmoradiya:MpqFtIvTUIcbKc5q@cloudprojectmongocluste.fo7yyic.mongodb.net/?retryWrites=true&w=majority";
 const expressGraphQL = require("express-graphql"); // middleware between express and graphQL
 const Models = require("./models/index.js");
 const schema = require("./schema/schema");
@@ -19,6 +19,7 @@ const { singleFileUpload } = require("./services/s3")
 
 
 if (!db) {
+console.log('Mongo_URL : '+process.env.MONGO_URI);
   throw new Error("You must provide a string to connect to MongoDB Atlas");
 }
 
