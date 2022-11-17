@@ -32,7 +32,7 @@ class Sidebar extends React.Component {
       <div className="sidebar">
         <div className="sidebar-title">
           <Link to="/" className="sidebar-title-link">
-            <i className="fab fa-spotify"></i>
+            {/* <i className="fab fa-spotify"></i> */}
             <div className="sidebar-Rock-N-Roll">Rock-N-Roll</div>
           </Link>
         </div>

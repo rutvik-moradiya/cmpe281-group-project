@@ -20,8 +20,6 @@ Group:
 ## Introduction
 Rock-N-Roll is a single page Docker, GraphQL and MERN stack (MongoDB, Express, React, Node) application inspired on the concept and style of Spotify. 
 
-![Dootify2020-03-25 16-30-21](https://user-images.githubusercontent.com/7420659/77706990-cbfacc00-6fbb-11ea-9e41-cffe47aaba8d.gif)
-
 ## How It Works
 To see the most up to date version, please visit [the homepage](https://dootify.herokuapp.com/#/).
 

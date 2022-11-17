@@ -47,6 +47,7 @@ img {
 }
 
 .session-links{
+  display: flex;
   cursor: pointer;
 }
 

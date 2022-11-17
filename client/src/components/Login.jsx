@@ -52,7 +52,7 @@ class Login extends Component {
             <header className="auth-header">
               <Link to="/splash">
                 <div className="logo-container">
-                  <i className="fab fa-spotify"></i>
+                  {/* <i className="fab fa-spotify"></i> */}
                   <h1>Rock-N-Roll</h1>
                 </div>
               </Link>
@@ -89,7 +89,7 @@ class Login extends Component {
                     Sign Up for Rock-N-Roll
                   </Link>
                   </button>
-                  <button className="demo-login" onClick={(e) => {
+                  {/* <button className="demo-login" onClick={(e) => {
                     e.preventDefault();
                     loginUser({
                       variables: {
@@ -99,7 +99,7 @@ class Login extends Component {
                     })
                   }}>
                     Try the demo
-                  </button>
+                  </button> */}
                 </div>
               </form>
             </div>

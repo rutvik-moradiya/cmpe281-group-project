@@ -32,7 +32,7 @@
 
 .input-container button {
   padding: 16px 14px 18px;
-  color: #fff;
+  color: #f1f1f1;
   background-color: black;
   font-size: 15px;
   line-height: 1;
@@ -58,7 +58,7 @@
 }
 
 .input-container button:hover {
-  background-color: #1ed760;
+  background-color: #3a17ae;
 }
 .auth-container {
   display: flex;
@@ -104,13 +104,13 @@
 }
 
 .signup-redirect {
-  color: #1DB954;
+  color: #e16161;
   font-size: 15px;
   font-family: sans-serif;
 }
 
 .signup-redirect:hover {
-  color: #1ed760;
+  color: #4326b5;
 }
 
 button.demo-login {

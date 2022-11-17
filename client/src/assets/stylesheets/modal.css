@@ -47,7 +47,7 @@
 
 .playlist-input {
   font-size: 48px;
-  caret-color: #1db954;
+  caret-color: #6a0505;
   color: white;
 }
 
@@ -62,8 +62,8 @@
 
 .create-playlist-buttons > * {
   padding: 12px;
-  color: #fff;
-  background-color: #1db954;
+  color: #f1f1f1;
+  background-color: #a0111b;
   font-size: 12px;
   line-height: 1;
   border-radius: 500px;
@@ -88,13 +88,14 @@
 
 .form-cancel {
   border: 2px solid white;
-  background-color: black;
-}
+  background-color: rgb(49, 49, 49);}
 
 .form-cancel:hover {
-  background-color: rgb(49, 49, 49);
+
+  background-color: rgb(72, 99, 172);
+
 }
 
 .form-create:hover {
-  background-color: #39d46f;
+  background-color: #583cbb;
 }

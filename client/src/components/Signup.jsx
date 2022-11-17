@@ -55,7 +55,7 @@ class Signup extends Component {
             <header className="auth-header">
               <Link to="/splash">
                 <div className="logo-container">
-                  <i className="fab fa-spotify"></i>
+                  {/* <i className="fab fa-spotify"></i> */}
                   <h1>Rock-N-Roll</h1>
                 </div>
               </Link>
