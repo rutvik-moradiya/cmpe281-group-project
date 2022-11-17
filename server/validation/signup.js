@@ -59,7 +59,7 @@ module.exports = function validateSignupInput(data) {
 
     // Check if person is at least 13 years old
   } else if (data.birthYear > currentYear - 13) {
-    return { message: "Sorry, but you don't meet dotify's age requirement" };
+    return { message: "Sorry, but you don't meet Rock-N-Roll's age requirement" };
   }
 
   if (!data.birthDay || data.birthDay < 1 || data.birthDay > 31) {

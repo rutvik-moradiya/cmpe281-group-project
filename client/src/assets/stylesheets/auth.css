@@ -33,7 +33,7 @@
 .input-container button {
   padding: 16px 14px 18px;
   color: #fff;
-  background-color: #1db954;
+  background-color: black;
   font-size: 15px;
   line-height: 1;
   border-radius: 500px;
@@ -114,7 +114,7 @@
 }
 
 button.demo-login {
-  background-color: rgb(185, 29, 29);
+  background-color: violet;
   font-size: 15px;
   font-family: sans-serif;
 }
