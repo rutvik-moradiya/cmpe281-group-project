@@ -11,6 +11,7 @@ phases:
       - echo "switched `pwd`"
       - npm install
       - npm install react-scripts
+      - npm I --save graphql
   build:
     commands:
       - echo Initiating build...
