@@ -42,7 +42,7 @@ class Nav extends React.Component {
                     <div className="header-wrapper">
                       <div className="header">
                         <div className="header-left">
-                          <div className="undoredo">
+                          {/* <div className="undoredo">
                             <button className="undo" onClick={() => this.props.history.goBack()}>
                               <div>
                                 <i className="fas fa-angle-left"></i>
@@ -53,11 +53,11 @@ class Nav extends React.Component {
                                 <i className="fas fa-angle-right"></i>
                               </div>
                             </button>
-                          </div>
+                          </div> */}
                           <Route path="/search" component={SearchBar} />
                         </div>
-                        {/* <div className="header-middle">
-                        </div> */}
+                        {<div className="header-middle">
+                        </div> }
                         <div className="header-right">
                           <button
                             className="username-btn"

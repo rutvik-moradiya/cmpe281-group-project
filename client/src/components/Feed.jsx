@@ -19,7 +19,7 @@ class Feed extends React.Component{
         <SearchResults />
        </Route>
        <section className="populars">
-         <h2>Popular Albums</h2>
+         <h2>Albums</h2>
          <Query query={FETCH_ALBUMS}>
            {({ loading, error, data }) => {
              if (loading) return "Loading...";
