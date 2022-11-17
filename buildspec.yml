@@ -6,7 +6,7 @@ phases:
       nodejs: 14
     commands:
       - echo Installing project dependencies..
-      - echo "current `pwd`".
+      - echo `pwd`.
       - cd client
       - echo "switched `pwd`"
       - npm install
