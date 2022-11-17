@@ -12,7 +12,6 @@ phases:
   build:
     commands:
       - echo Initiating build...
-      - cd client
       - npm run build
   post_build:
     commands:
