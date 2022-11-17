@@ -6,7 +6,9 @@ phases:
       nodejs: 14
     commands:
       - echo Installing project dependencies...
+      - cd client
       - npm install
+      - npm install react-scripts
   build:
     commands:
       - echo Initiating build...
