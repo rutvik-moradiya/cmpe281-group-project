@@ -5,14 +5,17 @@ phases:
     runtime-versions:
       nodejs: 14
     commands:
-      - echo Installing project dependencies...
+      - echo Installing project dependencies..
+      - echo "current `pwd`".
       - cd client
+      - echo "switched `pwd`"
       - npm install
       - npm install react-scripts
   build:
     commands:
       - echo Initiating build...
       - npm run build
+      - echo Build completed
   post_build:
     commands:
       - echo Build completed on `date`
