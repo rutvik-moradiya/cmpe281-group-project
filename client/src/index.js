@@ -20,7 +20,7 @@ let uri;
 if (process.env.NODE_ENV === "production") {
   uri = `/graphql`;
 } else {
-  uri = "http://localhost:5000/graphql";
+  uri = "http://3.139.161.60:5000/graphql";
 }
 
 const token = localStorage.getItem("auth-token");
@@ -45,6 +45,7 @@ cache.writeData({
       },
       __typename: "song"
     },
+    
     currentAlbum: {
       _id: "5e61353192f664f411114215",
       songs: {_id: "", url:"", title:"", __typename: "songs"},

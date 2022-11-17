@@ -17,7 +17,7 @@ function singleFileUpload(source, targetName, res) {
   fs.readFile(source, function (err, filedata) {
     if (!err) {
       const putParams = {
-        Bucket: 'dotify-aa-dev',
+        Bucket: 'Rock-N-Roll-aa-dev',
         Key: targetName,
         Body: filedata
       };
@@ -46,7 +46,7 @@ function singleFileUpload(source, targetName, res) {
 }
 
 const getUrl = (targetName) => {
-  const params = { Bucket: "dotify-aa-dev", Key: targetName };
+  const params = { Bucket: "Rock-N-Roll-aa-dev", Key: targetName };
   const url = s3.getSignedUrl("getObject", params);
   return url;
 }
