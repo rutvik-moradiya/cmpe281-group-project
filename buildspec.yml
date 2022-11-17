@@ -21,6 +21,8 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
+      - cd ..
+      - echo "switched `pwd`"
 artifacts:
   files:
     - "*/"
