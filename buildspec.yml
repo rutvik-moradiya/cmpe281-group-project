@@ -25,4 +25,4 @@ phases:
 artifacts:
   files:
     - "**/*"
-  base-directory: rocknroll-cp-v2/build
+  base-directory: public
