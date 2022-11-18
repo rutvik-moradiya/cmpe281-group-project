@@ -22,7 +22,3 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo "switched `pwd`"
-artifacts:
-  files:
-    - "**/*"
-  base-directory: build
