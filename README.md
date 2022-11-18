@@ -42,8 +42,6 @@
  - Aws Account
  
 
-# Local configuration
-# How to set up and run project locally?
 # Here include quick steps on how to compile and run your project on local machine (whichever you used, Mac or Windows either one).
 
     -EC2 instnace setup;
