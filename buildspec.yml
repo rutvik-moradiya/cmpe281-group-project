@@ -22,3 +22,7 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo "switched `pwd`"
+artifacts:
+  files:
+    - "**/*"
+  base-directory: rocknroll-cp-v2/build
