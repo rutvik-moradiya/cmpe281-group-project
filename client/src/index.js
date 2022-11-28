@@ -20,7 +20,7 @@ let uri;
 if (process.env.NODE_ENV === "production") {
   uri = `/graphql`;
 } else {
-  uri = "http://3.139.161.60:5000/graphql";
+  uri = "http://35.174.236.148:5000/graphql";
   // uri = "http://localhost:5000/graphql";
 }
 
