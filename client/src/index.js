@@ -22,7 +22,6 @@ if (process.env.NODE_ENV === "production") {
 } else {
   uri = "http://3.139.161.60:5000/graphql";
   // uri = "http://localhost:5000/graphql";
-
 }
 
 const token = localStorage.getItem("auth-token");
