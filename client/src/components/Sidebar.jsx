@@ -50,7 +50,7 @@ class Sidebar extends React.Component {
               </Link>
             )}
           </div>
-          <div className="search">
+          {/* <div className="search">
             {props.history.location.pathname === "/search" ? (
               <Link to="/search" className="search-button-selected">
                 <i className="fas fa-search"></i>
@@ -62,7 +62,7 @@ class Sidebar extends React.Component {
                 <div>Search</div>
               </Link>
             )}
-          </div>
+          </div> */}
           <div className="library">
             {props.history.location.pathname === "/collection" ? (
               <Link to="/collection" className="library-button-selected">

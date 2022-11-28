@@ -20,9 +20,8 @@ let uri;
 if (process.env.NODE_ENV === "production") {
   uri = `/graphql`;
 } else {
-  uri = "http://3.139.161.60:5000/graphql";
+  uri = "http://35.174.236.148:5000/graphql";
   // uri = "http://localhost:5000/graphql";
-
 }
 
 const token = localStorage.getItem("auth-token");
@@ -36,14 +35,14 @@ cache.writeData({
     userId,
     currentSong: {
       _id: "5e61356b92f664f411114216",
-      title: "Oh My God",
-      url: "https://cmpe281songs.s3.us-west-2.amazonaws.com/utha_utha_sakaljana+_+SHIRDI_SAIBABA_SONG.mp3",
+      title: "STAY - The Kid",
+      url: "https://rocknroll-songs-v2.s3.amazonaws.com/The+Kid+LAROI%2C+Justin+Bieber+-+STAY.mp3",
       album: {
         url: "https://dotify-aa-dev.s3.us-east-2.amazonaws.com/ohMyGod_album.png",
         __typename: "album"
       },
       artist: {
-        name: "Alec Benjamin",
+        name: "Justin Bieber",
         __typename: "artist"
       },
       __typename: "songs"
@@ -51,7 +50,7 @@ cache.writeData({
     
     currentAlbum: {
       _id: "5e61353192f664f411114215",
-      songs: [{_id: "5e61356b92f664f411114216", url:"https://cmpe281songs.s3.us-west-2.amazonaws.com/utha_utha_sakaljana+_+SHIRDI_SAIBABA_SONG.mp3", title:"Oh My God", __typename: "songs"}],
+      songs: [{_id: "5e61356b92f664f411114216",  url: "https://rocknroll-songs-v2.s3.amazonaws.com/The+Kid+LAROI%2C+Justin+Bieber+-+STAY.mp3", title:"Oh My God", __typename: "songs"}],
       artist: {
         _id: "5e6134b292f664f411114214", 
         name: "Alec Benjamin",
