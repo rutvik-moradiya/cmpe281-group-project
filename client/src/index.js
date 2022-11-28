@@ -36,8 +36,8 @@ cache.writeData({
     userId,
     currentSong: {
       _id: "5e61356b92f664f411114216",
-      title: "STAY - The Kid LAROI",
-      url: "https://cmpe281songs.s3.us-west-2.amazonaws.com/STAY+-+The+Kid+LAROI%2C+Justin+Bieber.mp3",
+      title: "STAY - The Kid",
+      url: "https://rocknroll-songs-v2.s3.amazonaws.com/The+Kid+LAROI%2C+Justin+Bieber+-+STAY.mp3",
       album: {
         url: "https://dotify-aa-dev.s3.us-east-2.amazonaws.com/ohMyGod_album.png",
         __typename: "album"
@@ -51,7 +51,7 @@ cache.writeData({
     
     currentAlbum: {
       _id: "5e61353192f664f411114215",
-      songs: [{_id: "5e61356b92f664f411114216",  url: "https://cmpe281songs.s3.us-west-2.amazonaws.com/STAY+-+The+Kid+LAROI%2C+Justin+Bieber.mp3", title:"Oh My God", __typename: "songs"}],
+      songs: [{_id: "5e61356b92f664f411114216",  url: "https://rocknroll-songs-v2.s3.amazonaws.com/The+Kid+LAROI%2C+Justin+Bieber+-+STAY.mp3", title:"Oh My God", __typename: "songs"}],
       artist: {
         _id: "5e6134b292f664f411114214", 
         name: "Alec Benjamin",
