@@ -33,6 +33,44 @@ class Feed extends React.Component{
              )
              }}
          </Query>
+    <div className="card" >
+      <div
+        className="card__thumbnail"
+        style={{backgroundImage: `url(https://dotify-aa-dev.s3.us-east-2.amazonaws.com/ohMyGod_album.png)`}}
+        data-testid="card-thumbnail"></div>
+      <div className="card__content">
+        <div className="card__wrapper">
+          <h3 className="card__title">rutvik</h3>
+          <span className="card__artist">Rutvik</span>
+        </div>
+        
+      </div>
+    </div>
+    <div className="card" >
+      <div
+        className="card__thumbnail"
+        style={{backgroundImage: `url(https://dotify-aa-dev.s3.us-east-2.amazonaws.com/ohMyGod_album.png)`}}
+        data-testid="card-thumbnail"></div>
+      <div className="card__content">
+        <div className="card__wrapper">
+          <h3 className="card__title">rutvik</h3>
+          <span className="card__artist">Rutvik</span>
+        </div>
+        
+      </div>
+    </div>   <div className="card" >
+      <div
+        className="card__thumbnail"
+        style={{backgroundImage: `url(https://dotify-aa-dev.s3.us-east-2.amazonaws.com/ohMyGod_album.png)`}}
+        data-testid="card-thumbnail"></div>
+      <div className="card__content">
+        <div className="card__wrapper">
+          <h3 className="card__title">rutvik</h3>
+          <span className="card__artist">Rutvik</span>
+        </div>
+        
+      </div>
+    </div>
        </section>
      </section>
    );
